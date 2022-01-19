@@ -1,2 +1,11 @@
-package PACKAGE_NAME;public class ContaCorrente {
+public class ContaCorrente extends Conta {
+
+    @Override
+    public void imprimirExtrato() {
+        System.out.println("=== Extrato conta Corrente ===" );
+        super.ImprimirInformacao();
+    }
 }
+
+
+

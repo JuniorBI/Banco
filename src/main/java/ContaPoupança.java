@@ -1,2 +1,8 @@
-package PACKAGE_NAME;public class ContaPoupança {
+public class ContaPoupança extends Conta {
+
+    @Override
+    public void imprimirExtrato() {
+        System.out.println("=== Extrato conta Poupança ===");
+        super.ImprimirInformacao();
+    }
 }

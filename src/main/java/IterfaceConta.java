@@ -1,3 +1,4 @@
+// definição da conta.
 
 public interface IterfaceConta {
 	
@@ -7,4 +8,5 @@ public interface IterfaceConta {
 	
 	void transferir(double valor, Conta contaDestino);
 
+	void imprimirExtrato();
 }
